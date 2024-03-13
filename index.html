@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Tostado Club</title>
+      <meta charstet="utf-8">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-" crossorigin="anonymous" />
+      <link rel="stylesheet" href="bxslider/jquery.bxslider.min.css">
+      <link rel="stylesheet" type="text/css" href="estilos.css">
+      <script src="jquery-3.7.1.min.js"></script>
+      <script src="bxslider/jquery.bxslider.min.js"></script>
+   </head>
+
+   <body>
+      
+      <header>
+            <div>
+               <ul>
+                  <li><a lang="es" href="">ESP</a></li>
+                  <li><a lang="cat" href="">CAT</a></li>
+                  <li><a lang="eng" href="">ENG</a></li>
+               </ul>
+            </div>
+
+
+            <form action= "URL del programa receptor">
+               <label for="buscar">Buscar...</label>
+               <input type="text" name="buscar" placeholder="Buscar...">
+               <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+      
+
+            <nav>
+               <ul>
+                  <li><a href="https://m.facebook.com/profile.php/?id=1343138044" target="_blank"></a><i class="fab fa-facebook"></i></li>
+                  <li><a href="https://linkedin.com/in/camila-ríos-albertini-67ab3922a" target="_blank"></a><i class="fab fa-twitter"></i></li>
+                  <li><a href="https://instagram.com/tostadoclubcafe?igshid=MzRlODBiNWFlZA==" target="_blank"></a><i class="fab fa-instagram"></i></li>
+               </ul>
+            </nav>
+
+            <div class="logo">
+               <img src="tost.svg" alt="Logo">
+            </div>
+      </header>
+      <main>
+
+         <section>
+            <div class="carousel">
+               <div class="diapo1">
+                  <h1 class="title-slides">Únete a Tostado Club</h1>
+                  <p class="subtitle-slides">Disfruta todos los meses de un buen Café. Granos frescos de la mano de las mejores tostadurías chilenas. ¡Suscríbete hoy!</p>
+                  <a href="link" class="button1" target="_blank">VER SUSCRIPCIÓN</a>
+               </div> 
+               <div class="diapo2">
+                  <h1 class="title-slides">Únete a Tostado Club</h1>
+                  <p class="subtitle-slides">Disfruta todos los meses de un buen Café. Granos frescos de la mano de las mejores tostadurías chilenas. ¡Suscríbete hoy!</p>
+                  <a href="link" class="button1" target="_blank">VER SUSCRIPCIÓN</a>
+               </div> 
+            </div>
+         </section>
+
+            <script>
+
+               $(".carousel").bxSlider();
+            </script>
+
+
+
+         <section class=top-body>
+            <div class="round">
+               <img src="round1.png" alt="imagen redonda">
+               <p>Tostadurias locales</p>
+            </div>
+
+            <div class="round">
+               <img src="round2.png" alt="imagen redonda">
+               <p>Recién tostado</p>
+            </div>
+
+            <div class="round">
+               <img src="round3.png" alt="imagen redonda">
+               <p>Directo a tu casa</p>
+            </div>
+         </section>
+         <!-- se suele hacer como lista-->
+
+         <section class="bottom-body">
+            <article>
+               <img src="triciclo.jpg" alt="imagen1">
+               <div>
+                  <h2 class="title">EL SALVADOR</h2>
+               <p>Es un café de variedad bourbon anaranjado, de la región de Tecapa/Chinameca; de la Finca La Bélgica. Tpstado en Chile 🏀🤍.</p>
+               </div>
+
+               <div class="tags">
+                  <a href="link" target="_blank">Bourbon Anaranjado</a>
+               </div>
+
+               <div class="sol">
+                  <button id="like1"><i class="fa-regular fa-thumbs-up" style="color: #9C2542;"></i>Like</button>
+                  <a href="https://www.cafetriciclo.cl/collections/frontpage/products/cafe-3ciclos-el-salvador-bourbon-anaranjado-x-noestamostrabajandoparaud" target="_blank">+</a>
+                   <!--el like puede ser button o enlace pero no es un form, identificar cada uno de los button es cada cual con un id-->
+               </div>
+            </article>
+
+            <article>
+               <img src="lama.jpg" alt="imagen2">
+               <div>
+                  <h2 class="title">COLOMBIA EXCELSO</h2>
+               <p>De buen cuerpo y sabroso en boca, ideal para tu método favorito, se adapta perfectamente a cualquier tipo de preparación donde sus sabores y aromas te sorprenderán.</p>
+               </div>
+
+               <div class="tags">
+                  <a href="link" target="_blank">Intenso</a>
+                  <a href="link" target="_blank">Panela</a>
+                  <a href="link" target="_blank">Cacao</a>
+               </div>
+
+               <div class="sol">
+                  <button id="like2"><i class="fa-regular fa-thumbs-up" style="color: #9C2542;"></i>Like</button>
+                  <a href="https://cafelama.cl/cafe-tostado-lama/cafe-tostado-lama/cafe-lama-colombia-excelso/" target="_blank">+</a>
+               </div>
+            </article>
+
+            <article>
+               <img src="renacuajo.jpg" alt="imagen3">
+               <div>
+                  <h2 class="title">PINK BOURBON</h2>
+               <p>resulta ser muy bueno en espresso como en filtrado, con este grano podemos sentir notas muy frutales y florales frutos amarillos y una dulzura increible.</p>
+               </div>
+
+               <div class="tags">
+                  <a href="link" target="_blank">Frutal</a>
+                  <a href="link" target="_blank">Floral</a>
+                  <a href="link" target="_blank">Dulce</a>
+               </div>
+
+               <div class="sol">
+                  <button id="like3"><i class="fa-regular fa-thumbs-up" style="color: #9C2542;"></i>Like</button>
+                  <a href="https://www.instagram.com/p/Cx_VrBTvHtz/" target="_blank">+</a>
+               </div>
+            </article>
+
+            <article>
+               <img src="altura.jpg" alt="imagen4">
+               <div>
+                  <h2 class="title">COSTA RICA LA PERLA</h2>
+               <p>Su fragancia es frutal con agradables toques cítricos, herbales y dulce a caramelo. En boca destaca por su alto dulzor a caramelo acompañado con naranja y mandarina.</p>
+               </div>
+
+               <div class="tags">
+                  <a href="link" target="_blank">Herbal</a>
+                  <a href="link" target="_blank">Caramelo</a>
+                  <a href="link" target="_blank">cítrico</a>
+               </div>
+
+               <div class="sol">
+                  <button id="like4"><i class="fa-regular fa-thumbs-up" style="color: #9C2542;"></i>Like</button>
+                  <a href="https://www.cafealtura.cl/producto/costa-rica-la-perla/" target="_blank">+</a>
+               </div>
+            </article>
+
+             <article>
+               <img src="Kawas.jpg" alt="imagen5">
+               <div>
+                  <h2 class="title">BLEND ORIGINAL</h2>
+               <p>Café fresco, de variedades seleccionadas 100% arábicas de Perú, Etiopía y Centroamérica. Cosechado a mano por pequeños y medianos caficultores.</p>
+               </div>
+
+               <div class="tags">
+                  <a href="link" target="_blank">Café</a>
+                  <a href="link" target="_blank">Molino</a>
+                  <a href="link" target="_blank">Grano</a>
+               </div>
+
+               <div class="sol">
+                  <button id="like1"><i class="fa-regular fa-thumbs-up" style="color: #9C2542;"></i>Like</button>
+                  <a href="https://www.kawas.cl/cafe-filter-house-blend" target="_blank">+</a>
+                   <!--el like puede ser button o enlace pero no es un form, identificar cada uno de los button es cada cual con un id-->
+               </div>
+            </article>
+
+            <article>
+               <img src="pickers.jpg" alt="imagen6">
+               <div>
+                  <h2 class="title">SAN IGNACIO</h2>
+               <p>Con sus notas a frutos rojos, cremoso y de dulzor a panela, este café dialoga a la perfección con Beyond Now, el álbum editado por Donny McCaslin en 2016.</p>
+               </div>
+
+               <div class="tags">
+                  <a href="link" target="_blank">Frutos rojos</a>
+                  <a href="link" target="_blank">Panela</a>
+               </div>
+
+               <div class="sol">
+                  <button id="like2"><i class="fa-regular fa-thumbs-up" style="color: #9C2542;"></i>Like</button>
+                  <a href="https://roastersandbrewers.cl/collections/cafe-en-grano/products/pickers-san-ignacio" target="_blank">+</a>
+               </div>
+            </article>
+
+            <article>
+               <img src="betterbeans.jpg" alt="imagen7">
+               <div>
+                  <h2 class="title">COLOMBIA GABRIELA</h2>
+               <p>Café de especialidad importado en Antioquia, al noroeste de Colombia. Ideal para consumir en todo tipo de cafeteras.</p>
+               </div>
+
+               <div class="tags">
+                  <a href="link" target="_blank">Cranberries</a>
+                  <a href="link" target="_blank">Cacao</a>
+               </div>
+
+               <div class="sol">
+                  <button id="like3"><i class="fa-regular fa-thumbs-up" style="color: #9C2542;"></i>Like</button>
+                  <a href="https://betterbeans.cl/250g-cafe-de-colombia-la-gabriela/" target="_blank">+</a>
+               </div>
+            </article>
+
+            <article>
+               <img src="cccr.jpg" alt="imagen8">
+               <div>
+                  <h2 class="title">PERU OCOBAMBA</h2>
+               <p>Una joya para los coffee lovers que aprecian un tueste oscuro. Este café en grano es el resultado del meticuloso trabajo de la Familia Guevara, Ocobamba, Cusco.</p>
+               </div>
+
+               <div class="tags">
+                  <a href="link" target="_blank">Avellana</a>
+                  <a href="link" target="_blank">Manzanilla</a>
+               </div>
+
+               <div class="sol">
+                  <button id="like4"><i class="fa-regular fa-thumbs-up" style="color: #9C2542;"></i>Like</button>
+                  <a href="https://www.coffeeculture.cl/collections/cafe/products/peru-ocobamba" target="_blank">+</a>
+               </div>
+            </article>
+         </section>
+
+         <section class="button2">
+            <a href="link" class="button2" target="_blank">Ver más</a>
+         </section>
+
+      </main>
+      <footer>
+         <div class="secciones">
+            <ul>
+               <li>Café Lama</li>
+               <li>Café Altura</li>
+               <li>Pickers Coffee</li>
+               <li>Kawas Coffee</li>
+            </ul>
+
+            <ul>
+               <li>Piedra partida</li>
+               <li>Muro Coffee</li>
+               <li>Renacuajo Coffee</li>
+               <li>Taller Café</li>
+            </ul>
+
+            <ul>
+               <li>Triciclo</li>
+               <li>Coffee Beans</li>
+               <li>CCCR</li>
+               <li>We are Four</li>
+            </ul>
+         </div>
+
+         <div class="footer-bajo">
+            <img src="tostb.svg" alt="Logo">
+
+            <nav>
+               <ul class="social">
+                  <li><a href="https://m.facebook.com/profile.php/?id=1343138044" target="_blank"></a><i class="fab fa-facebook"></i></li>
+                  <li><a href="https://linkedin.com/in/camila-ríos-albertini-67ab3922a" target="_blank"></a><i class="fab fa-twitter"></i></li>
+                  <li><a href="https://instagram.com/tostadoclubcafe?igshid=MzRlODBiNWFlZA==" target="_blank"></a><i class="fab fa-instagram"></i></li>
+               </ul>
+            </nav>
+         </div>
+      </footer>
+   </body>
+</html>
