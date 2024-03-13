@@ -142,10 +142,14 @@ main {
 
 .diapo1 {
 	background-image: url(slideshow1.jpg);
+	border: none
+	box-shadow: none
 }
 
 .diapo2{
 	background-image: url(slideshow2.jpg);
+	border: none
+	box-shadow: none
 }
 
 
